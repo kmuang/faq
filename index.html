@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech FAQ Accordion</title> 
+<script src="https://cdn.tailwindcss.com"></script> 
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body class="bg-gray-100 min-h-screen p-6 flex flex-col items-center">
+
+<h1 class="text-3xl font-bold text-center text-blue-700 mb-6">💻 Tech FAQ</h1>
+
+<!-- FAQ Container -->
+<div class="w-full max-w-4xl space-y-4">
+
+  <!-- 12 FAQ Items -->
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is Cloud Computing?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Cloud</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      Cloud computing is the delivery of computing services over the internet, including storage, networking, software, and analytics.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is AI and Machine Learning?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: AI</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      AI simulates human intelligence in machines. Machine Learning allows systems to learn from data without explicit programming.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is the difference between HTTP and HTTPS?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Web</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      HTTP is unsecured, while HTTPS encrypts data between the client and server for safe communication.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is a REST API?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: API</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      REST API is a set of rules for building web services that use HTTP requests to perform CRUD operations.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is DevOps?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Development</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      DevOps is a combination of development and operations practices to automate and improve software delivery.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is a Database index?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Database</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      A database index improves query performance by allowing faster retrieval of records from a database table.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is a Virtual Machine?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Virtualization</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      A virtual machine is an emulation of a computer system that runs programs like a physical machine.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is Cybersecurity?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Security</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.
+    </div>
+  </div>
+
+  <!-- New 4 Questions -->
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is Blockchain?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Technology</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      Blockchain is a distributed ledger technology that enables secure, transparent, and tamper-proof record keeping.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is IoT (Internet of Things)?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Technology</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      IoT is a network of physical devices embedded with sensors and software that exchange data over the internet.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is a VPN?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Security</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      A VPN (Virtual Private Network) creates a secure connection over the internet, protecting your data and privacy.
+    </div>
+  </div>
+
+  <div class="faq-item bg-white rounded-xl shadow-md overflow-hidden transition hover:shadow-xl">
+    <button class="faq-btn w-full text-left p-4 flex justify-between items-center group transition-colors duration-300">
+      <div>
+        <span class="faq-title font-semibold text-gray-800 transition-colors duration-300">What is Edge Computing?</span>
+        <span class="ml-2 text-sm text-gray-500 italic transition-colors duration-300">Category: Cloud</span>
+      </div>
+      <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300 group-hover:text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+    <div class="faq-content p-4 text-gray-700 hidden transition-colors duration-300 hover:bg-green-100 hover:text-green-800 rounded-md">
+      Edge computing is a distributed computing model that processes data closer to the source, reducing latency and bandwidth use.
+    </div>
+  </div>
+
+</div>
+
+<footer class="text-gray-800 py-4 w-full text-center">
+  &copy; 2025 Tech FAQ. All rights reserved.
+</footer>
+
+<script>
+// Accordion toggle with color change
+document.querySelectorAll('.faq-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const content = button.nextElementSibling;
+    const icon = button.querySelector('svg');
+    const title = button.querySelector('.faq-title');
+
+    content.classList.toggle('hidden');
+    icon.classList.toggle('rotate-180');
+
+    if (!content.classList.contains('hidden')) {
+      button.classList.add('bg-blue-600');
+      title.classList.add('text-white');
+      button.querySelector('span.ml-2').classList.add('text-white/80');
+    } else {
+      button.classList.remove('bg-blue-600');
+      title.classList.remove('text-white');
+      button.querySelector('span.ml-2').classList.remove('text-white/80');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
